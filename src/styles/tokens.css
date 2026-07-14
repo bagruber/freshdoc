@@ -1,0 +1,32 @@
+/*
+ * fresh CI Tokens — helle Dokument-Variante.
+ * Quelle: fresh.design cheat sheet. Für Dokumente invertiert:
+ * Papierweiß als Grund, River-Töne als Text, Rose/Wind als Akzente.
+ * Niemand schreibt Hex-Werte direkt im Code — alles über diese Tokens.
+ * (Ausnahme: @page-Randboxen in document.css, wo var() nicht zuverlässig ist.)
+ */
+
+:root {
+  /* Primärfarben */
+  --fresh-rose: #e50046;
+  --fresh-wind: #36c9c5;
+  --fresh-river: #1f4859;
+
+  /* Abgeleitete Dokumentfarben */
+  --doc-ink: #132026; /* Fließtext: fast schwarz mit River-Stich */
+  --doc-ink-soft: #466e7f; /* Sekundärtext, Fußnoten, Seitenzahlen */
+  --doc-line: #c9d6dc; /* feine Linien auf Papier */
+  --doc-paper: #ffffff;
+
+  /* Wind ist auf Weiß zu hell für Text — dunklere Stufe aus dem Cheat Sheet */
+  --fresh-wind-deep: #267f77;
+
+  /* Typografie */
+  --font-display: "Barlow Condensed", "Helvetica Neue", sans-serif;
+  --font-body: "Raleway", "Helvetica Neue", sans-serif;
+
+  /* App-Chrome (Bildschirm, nicht Druck) */
+  --app-bg: #eef2f4;
+  --app-panel: #ffffff;
+  --app-border: #d5dee2;
+}
